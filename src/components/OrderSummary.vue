@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
+import { computed , ref} from 'vue';
 
 let hideDetails = ref(false)
 const {cartItems} = defineProps(['cartItems'])
